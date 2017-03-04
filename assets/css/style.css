@@ -1,0 +1,20 @@
+body {
+	background-color: pink;
+}
+
+#start-button {
+	color: blue;
+}
+
+.question {
+	font-size: 20px;
+}
+
+.answers {
+	font: 15px arial, sans-serif;
+
+}
+
+h1 {
+	font-size: 60px;
+}

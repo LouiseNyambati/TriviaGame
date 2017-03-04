@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia Game</title>
+
+  <!-- Link bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Link to css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- Link jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
+
+</head>
+<body>
+<!-- Layout -->
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-12 text-center">
+      <h1>Total Pop Culture Trivia</h1>
+  </div>
+  <div class = "row">
+    <div class = "col-md-12 text-center">
+      <!-- Show timer -->
+      <div id="show-timer"></div>
+  </div>
+<!-- Question section -->
+  <div class = "question-section"
+    <div class = "row">
+      <div class = "col-md-12 text-center">
+      <h2><button type="button" id="start-button">Start</button></h2>
+
+      
+  <form>
+        <!-- Question 1 -->
+        <p class="question">1. Which hugely popular American TV comedy follows the lives of Jay Pritchett and his family?</p>
+        <ul class="answers">
+        <input type="radio" name="q1" value="A" id="correct"><label for="q1a">Modern Family</label><br/>
+        <input type="radio" name="q1" value="B" id="mc"><label for="q1b">The Simpsons</label><br/>
+        <input type="radio" name="q1" value="C" id="mc"><label for="q1c">Family Guy</label><br/>
+        <input type="radio" name="q1" value="D" id="mc"><label for="q1d">American Dad</label><br/>
+        </ul>
+  </form>
+        <!-- Question 2 -->
+  <form>
+        <p class="question">2. Who is the oldest of the Kardashian sisters?</p>
+        <ul class="answers">
+        <input type="radio" name="q2" value="A" id="mc"><label for="q2a">Khloe</label><br/>
+        <input type="radio" name="q2" value="B" id="mc"><label for="q2b">Kim</label><br/>
+        <input type="radio" name="q2" value="C" id="mc"><label for="q2c">Kylie</label><br/>
+        <input type="radio" name="q2" value="D" id="correct"><label for="q2d">Kourtney</label><br/>
+        </ul>
+  </form>      
+
+
+  <form>
+        <!-- Question 3 -->
+        <p class="question">3. Which member of the boy band One Direction left the band in March, 2015?</p>
+        <ul class="answers">
+        <input type="radio" name="q3" value="A" id="mc"><label for="q3a">Liam</label><br/>
+        <input type="radio" name="q3" value="B" id="correct"><label for="q3b">Zayn</label><br/>
+        <input type="radio" name="q3" value="C" id="mc"><label for="q3c">Harry</label><br/>
+        <input type="radio" name="q3" value="D" id="mc"><label for="q3d">Niall</label><br/>
+        </ul>
+  </form>
+
+  <form>
+        <!-- Question 4 -->
+        <p class="question">4. Which song topped the Billboard charts for 14 consecutive weeks in 2015?</p>
+        <ul class="answers">
+        <input type="radio" name="q4" value="A" id="mc"><label for="q4a">Style by Taylor Swift</label><br/>
+        <input type="radio" name="q4" value="B" id="mc"><label for="q4b">Thinking Out Loud by Ed Sheeran</label><br/>
+        <input type="radio" name="q4" value="C" id="correct"><label for="q4c">Uptown Funk by Mark Ronson featuring Bruno Mars</label><br/>
+        <input type="radio" name="q4" value="D" id="mc"><label for="q4d">See You Again by Wiz Khalifa Featuring Charlie Puth</label><br/>
+        </ul>
+  </form>
+
+  <form>
+        <!-- Question 5 -->
+        <p class="question">5. Who won 'Album of the Year' at the 2017 grammys?</p>
+        <ul class="answers">
+        <input type="radio" name="q5" value="A" id="mc"><label for="q5a">Beyonce</label><br/>
+        <input type="radio" name="q5" value="B" id="correct"><label for="q5b">Adele</label><br/>
+        <input type="radio" name="q5" value="C" id="mc"><label for="q5c">Kanye West</label><br/>
+        <input type="radio" name="q5" value="D" id="mc"><label for="q5d">Justin Bieber</label><br/>
+        </ul>
+  </form>
+        <!-- Submit Button -->
+       <button type="submit">I'm Done</button>
+       <!-- Restart Button -->
+      <button type="reset">Restart</button>
+        </form>
+
+        
+
+        <!-- Score -->
+        <div id="number-correct"></div>
+
+      </div>
+    </div>
+	</div>			
+	
+
+
+<!-- Link Javascript -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script type="text/javascript" src="assets/javascript/submit.js"></script>
+</div>
+</body>
+</html>
